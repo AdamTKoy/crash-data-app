@@ -1,0 +1,30 @@
+## Author
+
+- **Name:** Adam T'Koy
+- **Email:** tkoy2@illinois.edu
+
+## Purpose
+
+This shiny application compares and summarizes data regarding fatal car crashes within the United States during the year 2012 (2009 for 'Speeding' data). The visualizations show how respective states' drivers statistically compare in the frequency of dangerous behaviors coinciding with fatal car crashes and could potentially be used by state authorities to know how to target traffic patrol efforts.
+
+A comparison feature is also available (for all metrics except reference group 'Fatalities') to illustrate the subset of total fatalities for each state that were also associated with a particular dangerous behavior. The Data Table tab provides the percentage and/or number of fatalities. Both the graphic and the data table may be sorted in descending order to draw attention to the highest risk states.
+
+## Data
+
+Data sourced from news organization 538, which sourced it from the National Highway Traffic Safety Administration.
+
+**Fatalities**: refers to total number of fatalities per 1 billion miles driven
+
+**Speeding**: refers to percentage of drivers involved in fatal car crashes that were speeding 
+
+**Alcohol**: refers to percentage of drivers involved in fatal car crashes that were impaired by alcohol 
+
+**Distracted**: refers to percentage of drivers involved in fatal car crashes that were distracted 
+
+**Prior**: refers to percentage of drivers involved in fatal car crashes that have had a prior accident
+
+When the comparison filter is enabled, the Data Table will also include an added column for the number of fatalities coinciding with a particular dangerous-behavior metric.
+
+## References
+
+- [538: Bad Drivers] (https://github.com/fivethirtyeight/data/tree/master/bad-drivers)
